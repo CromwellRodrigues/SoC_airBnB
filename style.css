@@ -280,9 +280,13 @@ body {
 
 /* inspiration */
 
+.links {
+    background-color: #E7E7E2;
+}
+
 .container-3 {
 	/* background-color: rgb(224, 187, 209); */
-    background-color: #E7E7E2;
+   
 	width: 90%;
 	height: auto;
 	z-index: -100;
@@ -388,6 +392,49 @@ body {
     margin-top: 30px;
 }
 
-.container-3 h2 {
-    font-size: 1.2rem;
+.container-4,
+.container-5,
+.container-6,
+.container-7 {
+	/* background-color: rgb(224, 187, 209); */
+    background-color: #E7E7E2;
+
+	width: 90%;
+	height: auto;
+	z-index: -100;
+	color: #000;
+	margin: 24px auto;
+	display: flex;
+	flex-direction: column;
+
+	justify-content: left;
+	align-items: flex-start;
+	padding-bottom: 40px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.container-4 .support,
+.container-5 .hosting,
+.container-6 .airbnb,
+country-currency-copyright {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.support > .support-links,
+.hosting > .hosting-links,
+.airbnb > .airbnb-links,
+country-currency-copyright {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1.4rem;
+}
+
+.support > .support-links a,
+.hosting > .hosting-links a,
+.airbnb > .airbnb-links a,
+.country-currency-copyright a {
+	text-decoration: none;
+	color: #0f0101;
 }
