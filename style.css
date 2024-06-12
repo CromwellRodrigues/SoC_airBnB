@@ -425,10 +425,11 @@ country-currency-copyright {
 .support > .support-links,
 .hosting > .hosting-links,
 .airbnb > .airbnb-links,
-country-currency-copyright {
+.country-currency-copyright {
 	display: grid;
 	grid-template-columns: 1fr;
 	gap: 1.4rem;
+    padding: 0px;
 }
 
 .support > .support-links a,
@@ -437,4 +438,5 @@ country-currency-copyright {
 .country-currency-copyright a {
 	text-decoration: none;
 	color: #0f0101;
+    font-size: 0.7em;
 }
