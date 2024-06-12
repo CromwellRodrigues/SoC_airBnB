@@ -48,7 +48,7 @@ body {
     align-items: center;
     width : 100%;
     margin : 0 auto;
-    padding: 10px 20px;
+    padding: 0px 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color: #fff;
@@ -276,4 +276,118 @@ body {
 	padding: 10px auto;
 	margin-left: 24px;
 	padding-bottom: 24px;
+}
+
+/* inspiration */
+
+.container-3 {
+	/* background-color: rgb(224, 187, 209); */
+    background-color: #E7E7E2;
+	width: 90%;
+	height: auto;
+	z-index: -100;
+	color: #000;
+	margin: 24px auto;
+	display: flex;
+
+	justify-content: center;
+	align-items: flex-start;
+	display: grid;
+	grid-template-columns: 1fr;
+	padding-bottom: 40px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.future h2,
+.support h2,
+.hosting h2,
+.airbnb h2 {
+	font-weight: 600;
+	color: rgb(34, 34, 34);
+	margin-bottom: 18px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.text-scroller {
+	display: block;
+	font-size: 14px;
+	text-wrap: nowrap;
+	overflow: visible;
+	padding-left: 12px;
+	padding-right: 12px;
+	overflow-x: auto;
+	white-space: nowrap;
+	width: 100%;
+	/* background-color: lightpink; */
+	/* display: flex;
+	flex-direction : row;
+	
+	
+	gap: 0.25rem;
+	
+	padding: 3px 0px;
+	margin: 0;
+	height: 60px;
+	width: 100%;
+	overflow-x: auto;
+	overscroll-behavior-inline: contain;
+	position: relative;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 8px; */
+}
+
+.text-scroller::-webkit-scrollbar {
+	/* WebKit */
+	width: 0;
+	height: 0;
+}
+
+.future-getaway {
+	display: flex;
+	gap: 10px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.future-getaways button {
+	margin: 0 10px;
+	padding: 10px;
+	background-color: transparent;
+	border: none;
+	flex-shrink: 0;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 0.2 0.15rem;
+	white-space: nowrap;
+	/* padding: 0 5px -2px; */
+	padding-bottom: 16px;
+
+	text-align: center;
+	text-wrap: nowrap;
+	line-height: 10px;
+	justify-self: center;
+	cursor: pointer;
+}
+
+.future-getaways button:hover {
+	border-bottom: 2px solid #eee;
+}
+
+.text-scroller .places {
+	/* background-color: coral; */
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+}
+
+.places .place {
+    margin-top: 30px;
+}
+
+.container-3 h2 {
+    font-size: 1.2rem;
 }
